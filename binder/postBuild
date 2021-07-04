@@ -1,0 +1,14 @@
+# pip install master
+git clone https://github.com/pyiron/pyiron_experimental.git
+cd pyiron_experimental
+git checkout interactive_hs
+pip install .
+cd ..
+
+# clean up
+if [ -d "notebooks" ]; then
+    mv notebooks/* .
+fi
+if [ -d "${HOME}/pyiron_gui_example" ]; then
+    rm -r ${HOME}/binder ${HOME}/pyiron_experimental
+fi
