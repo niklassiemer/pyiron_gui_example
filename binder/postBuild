@@ -3,7 +3,7 @@ git clone -b interactive_hs  https://github.com/pyiron/pyiron_experimental.git $
 
 export PYTHONPATH=$PYTHONPATH:${HOME}/pyiron_experimental
 
-	# clean up
+# clean up
 if [ -d "notebooks" ]; then
     mv notebooks/* .
 fi
