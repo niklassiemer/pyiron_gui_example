@@ -1,12 +1,9 @@
 # pip install master
-git clone https://github.com/pyiron/pyiron_experimental.git ${HOME}/pyiron_experimental
-cd ${HOME}/pyiron_experimental
-git checkout origin/interactive_hs
-cd ..
+git clone -b interactive_hs  https://github.com/pyiron/pyiron_experimental.git ${HOME}/pyiron_experimental
 
 export PYTHONPATH=$PYTHONPATH:${HOME}/pyiron_experimental
 
-# clean up
+	# clean up
 if [ -d "notebooks" ]; then
     mv notebooks/* .
 fi
