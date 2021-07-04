@@ -5,11 +5,8 @@ dependencies:
 - pip
 - python
 - pyiron_gui >= 0.0.4
-- lammps
 - iprpy-data
 - gpaw
-- sphinxdft >=2.7.0
-- sphinxdft-data
 - nglview
 - seaborn
 - pyscal
@@ -17,3 +14,7 @@ dependencies:
 - pyiron-data >=0.0.5
 - sqsgenerator
 - pymatgen
+- hyperspy
+# - lammps
+# - sphinxdft >=2.7.0
+# - sphinxdft-data
