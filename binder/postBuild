@@ -10,5 +10,5 @@ if [ -d "notebooks" ]; then
     mv notebooks/* .
 fi
 if [ -d "${HOME}/pyiron_gui_example" ]; then
-    rm -r ${HOME}/binder ${HOME}/pyiron_experimental
+    rm -r ${HOME}/binder ${HOME}/pyiron_experimental ${HOME}/README.rst
 fi
