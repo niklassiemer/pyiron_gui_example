@@ -1,6 +1,7 @@
 # pip install master
 git clone https://github.com/pyiron/pyiron_experimental.git ${HOME}/pyiron_experimental
 cd ${HOME}/pyiron_experimental
+git fetch
 git checkout interactive_hs
 cd ..
 
