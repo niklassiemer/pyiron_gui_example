@@ -1,0 +1,13 @@
+,id,status,chemicalformula,job,subjob,project,timestart,timestop,totalcputime,computer,hamilton,hamversion,parentid,masterid
+0,0,finished,Fe,murn,/murn,packed_murn/murn,2021-06-10 13:14:57.186124,2021-06-10 13:16:29.627554,92.0,pyiron@cmleo11#1#11/11,Murnaghan,0.3.0,,
+1,1,finished,Fe,strain_0_9,/strain_0_9,packed_murn/murn/murn_hdf5,2021-06-10 13:15:01.532120,2021-06-10 13:15:04.280850,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+2,2,finished,Fe,strain_0_92,/strain_0_92,packed_murn/murn/murn_hdf5,2021-06-10 13:15:08.961858,2021-06-10 13:15:11.509134,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+3,3,finished,Fe,strain_0_94,/strain_0_94,packed_murn/murn/murn_hdf5,2021-06-10 13:15:16.005927,2021-06-10 13:15:18.488166,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+4,4,finished,Fe,strain_0_96,/strain_0_96,packed_murn/murn/murn_hdf5,2021-06-10 13:15:22.932510,2021-06-10 13:15:25.655690,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+5,5,finished,Fe,strain_0_98,/strain_0_98,packed_murn/murn/murn_hdf5,2021-06-10 13:15:30.807500,2021-06-10 13:15:33.585087,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+6,6,finished,Fe,strain_1_0,/strain_1_0,packed_murn/murn/murn_hdf5,2021-06-10 13:15:38.823818,2021-06-10 13:15:41.666325,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+7,7,finished,Fe,strain_1_02,/strain_1_02,packed_murn/murn/murn_hdf5,2021-06-10 13:15:46.890416,2021-06-10 13:15:49.660933,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+8,8,finished,Fe,strain_1_04,/strain_1_04,packed_murn/murn/murn_hdf5,2021-06-10 13:15:55.053649,2021-06-10 13:15:57.898674,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+9,9,finished,Fe,strain_1_06,/strain_1_06,packed_murn/murn/murn_hdf5,2021-06-10 13:16:03.419525,2021-06-10 13:16:06.256831,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+10,10,finished,Fe,strain_1_08,/strain_1_08,packed_murn/murn/murn_hdf5,2021-06-10 13:16:11.833125,2021-06-10 13:16:14.689342,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
+11,11,finished,Fe,strain_1_1,/strain_1_1,packed_murn/murn/murn_hdf5,2021-06-10 13:16:20.246098,2021-06-10 13:16:23.166569,2.0,pyiron@cmleo11#1,Lammps,0.1,,0.0
