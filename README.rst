@@ -8,5 +8,6 @@ Getting started:
 Test pyiron with mybinder:
 
 .. image:: https://mybinder.org/badge_logo.svg
-     :target: https://mybinder.org/v2/gh/niklassiemer/pyiron_gui_example/master
+     :target: https://mybinder.org/v2/gh/niklassiemer/pyiron_gui_example/master?filepath=GUI.ipynb
      :alt: mybinder
+     
