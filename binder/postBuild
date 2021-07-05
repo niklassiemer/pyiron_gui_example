@@ -1,4 +1,6 @@
 # clean up
+ls ${HOME}
+ls ${HOME}/pyiron_gui_example
 ls "${HOME}/pyiron_gui_example"
 if [ -d "${HOME}/pyiron_gui_example" ]; then
     rm -r ${HOME}/binder ${HOME}/README.rst
