@@ -1,6 +1,9 @@
 # clean up
 
 git clone -b interactive_hs  https://github.com/pyiron/pyiron_experimental.git ${HOME}/pyiron_experimental
+mv ${HOME}/pyiron_experimental/pyiron_experimental ${HOME}/pyiron_experimental2
+rm -r ${HOME}/pyiron_experimental/pyiron_experimental
+mv ${HOME}/pyiron_experimental2 ${HOME}/pyiron_experimental
 
 export PYTHONPATH=$PYTHONPATH:${HOME}/pyiron_experimental
 
