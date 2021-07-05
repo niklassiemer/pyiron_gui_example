@@ -4,7 +4,7 @@ dependencies:
 - git
 - pip
 - python
-- pyiron_gui >= 0.0.5
+- pyiron_gui >= 0.0.4
 - pyiron_experimental
 - iprpy-data
 - gpaw

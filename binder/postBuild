@@ -1,0 +1,3 @@
+# clean up
+ls ${HOME}
+rm -r ${HOME}/binder ${HOME}/README.rst
