@@ -7,5 +7,11 @@ mv ${HOME}/pyiron_experimental2 ${HOME}/pyiron_experimental
 
 export PYTHONPATH=$PYTHONPATH:${HOME}/pyiron_experimental
 
+python -c "from pyiron_atomistics import Project
+pr=Project('projects')
+atom_pr = pr['Atomistic_Simulation']
+atom_pr.unpack('packed_murn')
+"
+
 ls ${HOME}
-rm -r ${HOME}/binder ${HOME}/README.rst
+rm -r ${HOME}/binder ${HOME}/README.rst ${HOME}/packed_murn.tar.gz ${HOME}/export.csv
